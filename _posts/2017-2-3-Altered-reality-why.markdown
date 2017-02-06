@@ -4,7 +4,7 @@ title:  "The Altered Reality Why"
 date:   2017-2-3
 ---
 
-*Altered Reality: n. Experiences where technology affects the state or quality of objects or information to having existence or substance. This primarily includes techniques that affect how the human senses of sight, sound, and touch can be manipulated to deliver information and to convince a user that information exists in their current reality. Virtual, Augmented and Mixed  realities and 360°° media are included in Altered Reality.*
+*Altered Reality: n. Experiences where technology affects the state or quality of objects or information to having existence or substance. This primarily includes techniques that affect how the human senses of sight, sound, and touch can be manipulated to deliver information and to convince a user that information exists in their current reality. Virtual, Augmented and Mixed  realities and 360° media are included in Altered Reality.*
 
 Remember 3D? When uttered, 3D tends to trigger anger for the movie ticket inflating annoyance we know too well. It should also remind you of the technology industry wide trend to add the gimmick to any tech product. TV’s, phones, projectors, all were graced with the ability to detect depth in an image. The consumer technology community has passed on, admitting it never became a differentiator in the marketplace to push more device sales. But a takeaway from that moment was listening to a common refrain from consumers: why? Why should I put these glasses on when they make it harder to see the visuals and adds arguably little to the experience?
 

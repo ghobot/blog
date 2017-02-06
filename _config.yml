@@ -17,7 +17,7 @@ navigation:
  - title: About
    url: /about
  - title: IIME
-   url: http://www.med.nyu.edu/iime/
+   url: "http://www.med.nyu.edu/iime/"
 
 social:
    github: iime

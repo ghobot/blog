@@ -2,6 +2,7 @@
 layout: post
 title:  "The Altered Reality Why"
 date:   2017-2-3
+tags:   [Altered Reality, VR, AR, Photogrammetry, 3D Scanning, 360° video]
 ---
 
 *Altered Reality: n. Experiences where technology affects the state or quality of objects or information to having existence or substance. This primarily includes techniques that affect how the human senses of sight, sound, and touch can be manipulated to deliver information and to convince a user that information exists in their current reality. Virtual, Augmented and Mixed  realities and 360° media are included in Altered Reality.*

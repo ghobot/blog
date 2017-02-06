@@ -3,6 +3,8 @@ layout: default
 title: IIME Innovation Space
 ---
 
+
+
 <div class="home" id="home">
   <h1 class="pageTitle">Recent Posts</h1>
   <ul class="posts noList">
@@ -14,6 +16,12 @@ title: IIME Innovation Space
       </li>
     {% endfor %}
   </ul>
+    
+<div style="display:inline-block;margin-left:.5em;">
+<!--    Browse by <a href="/category/">Category</a> or <a href="/tags/">Tag</a>-->
+    Browse by <a href="/tags/">Tag</a>.
+</div>
+    
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
@@ -24,3 +32,4 @@ title: IIME Innovation Space
     {% endif %}
   </div>
 </div>
+    

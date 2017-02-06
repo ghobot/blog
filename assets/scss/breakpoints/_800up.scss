@@ -79,6 +79,8 @@ HEADER STYLING
 	nav {
 		float: left;
 		clear: left;
+        background: rgb(187, 187, 187);
+        width: auto;
 
 		ul {
 			margin: 0;
@@ -91,12 +93,13 @@ HEADER STYLING
 
 				a {
 					color: white;
-					font-size: .9em;
+					font-size: 1em;
 					text-decoration: none;
 					padding: 0 .25em;
+                    font-family: Open Sans, Helvetica,Arial,sans-serif;
 
 					&:hover {
-						color: darken(white, 20%);
+						color: darken(white, 10%);
 					}
 				}
 
@@ -232,4 +235,18 @@ CONTACT PAGE STYLING
 	form {
 		@include span(6 of 12 last);
 	}
+}
+
+.tag-mark {
+    background-color: #bbb;
+    padding: 2px 5px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.posts {
+    .tag-mark {
+        font-family: Open Sans,Helvetica,Arial,sans-serif;
+    }
 }

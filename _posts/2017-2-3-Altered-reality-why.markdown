@@ -3,9 +3,8 @@ layout: post
 title:  "The Altered Reality Why"
 date:   2017-2-3
 ---
-*The NYU LAngone Institute for Innovations in medical education has created an innovation space to explore new technologies in medical education and practice. Altered reality technology is one focus.*
 
-*Altered Reality: n. Experiences where technology affects the state or quality of objects or information to having existence or substance. This primarily includes techniques that affect how the human senses of sight, sound, and touch can be manipulated to deliver information and to convince a user that information exists in their current reality. Virtual, Augmented and Mixed  realities and 360*° *media are included in Altered Reality.  *
+*Altered Reality: n. Experiences where technology affects the state or quality of objects or information to having existence or substance. This primarily includes techniques that affect how the human senses of sight, sound, and touch can be manipulated to deliver information and to convince a user that information exists in their current reality. Virtual, Augmented and Mixed  realities and 360° media are included in Altered Reality.*
 
 Remember 3D? When uttered, 3D tends to trigger anger for the movie ticket inflating annoyance we know too well. It should also remind you of the technology industry wide trend to add the gimmick to any tech product. TV’s, phones, projectors, all were graced with the ability to detect depth in an image. The consumer technology community has passed on, admitting it never became a differentiator in the marketplace to push more device sales. But a takeaway from that moment was listening to a common refrain from consumers: why? Why should I put these glasses on when they make it harder to see the visuals and adds arguably little to the experience?
 
@@ -34,7 +33,7 @@ Some insights:
 
 
 ## Content is King
-<p> Some updates on creating content for altered realities.</p>
+<p> A large part of year one exploration of this technology includes building capacity for creating content in this new medium. Here are some experiments on this front. </p>
 
 
 ### Aframe
@@ -45,7 +44,7 @@ Here is an [Aframe demo](https://ghobot.github.io/vr-liver/liver-demo/index.html
 ### Photogrammetry
 Physicians often lament how students have less and less time in the anatomy lab or exposure to pathological specimens. Dr. Amy Rapkiewicz is working with IIME to create an archive of novel pathological tissue in the form of 3D objects that can be viewed using VR and AR technologies like the Vive or the Hololens. 
 
-<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351/embed?autospin=0.2&amp;transparent=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<div class="sketchfab-embed-wrapper"><iframe width="600" height="400" src="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351/embed?autospin=0.2&amp;transparent=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
     <a href="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Liver With Holes</a>
@@ -63,4 +62,4 @@ Take a look at [more experiments in 3D scanning](https://sketchfab.com/ScienceLi
 
   <iframe style="max-width:100%" src="https://www.youtube.com/embed/6hTLcum09uw" width="600px" height="450px" frameborder="0" allowfullscreen="true"> </iframe>
 
-We are assisting the School of Medicine anatomy lab to create 360 degree 4k video of dissections. With these videos, a learner can control the view and zoom in for more detail of the subject.  
+<p>We are assisting the School of Medicine anatomy lab to create 360 degree 4k video of dissections. With these videos, a learner can control the view and zoom in for more detail of the subject. Click the link in the embed to see this ability on mobile. </p>

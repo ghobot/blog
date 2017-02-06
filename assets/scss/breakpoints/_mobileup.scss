@@ -38,6 +38,16 @@ img,video,audio,iframe,object{
 	max-width:100%;
 }
 
+iframe {
+    display:block;
+    margin: 0 auto 1rem;
+}
+
+.sketchfab-embed-wrapper p{
+    margin: 1rem auto !important;
+    
+}
+
 // Layout
 .container {
 	@include container(610px);
@@ -213,7 +223,7 @@ POST STYLING
 .post {
 
 	.postTitle {
-		text-align: center;
+		text-align: left;
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 	}
@@ -249,7 +259,7 @@ POST STYLING
 	}
 
 	.meta {
-		text-align: center;
+		text-align: left;
 		color: lighten(black, 50%);
 		font-family: $sans-serif;
 		font-weight: 300;

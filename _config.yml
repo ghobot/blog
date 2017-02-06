@@ -16,12 +16,12 @@ navigation:
    url: /index.html
  - title: About
    url: /about
-# - title: Contact
-#   url: /contact
+ - title: IIME
+   url: http://www.med.nyu.edu/iime/
 
 social:
-   github: ghobot
-   twitter: sciencelifeny
+   github: iime
+   twitter: NYULMC_IIME
    email: greg.dorsainville@nyumc.org
 
 google_analytics: "UA-91515516-1"

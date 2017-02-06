@@ -12,13 +12,13 @@ gems: [jekyll-paginate]
 paginate: 10
 
 navigation:
- - title: "Home"
-   url: /index.html
- - title: "About"
+ - title: Home
+   url: /index
+ - title: About
    url: /about
- - title: "IIME"
-   url: http://www.med.nyu.edu/iime/
- - title: "Tags"
+ - title: IIME
+   url: http://www.med.nyu.edu/iime
+ - title: Tags
    url: /tags
 
 social:

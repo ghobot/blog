@@ -15,13 +15,15 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about
- - title: IIME
-   url: http://www.med.nyu.edu/iime
+   url: /about 
  - title: Tags
    url: /tags
  - title: Gallery
    url: /gallery
+ - title: IIME
+   url: http://www.med.nyu.edu/iime
+ - title: Cardboard
+   url: http://ghobot.github.io/iimecardboard/
 
 social:
    github: iime

@@ -1,19 +1,19 @@
 title: IIME Innovation Space
 description: Updates from the NYU IIME Innovation Space
 
-url: 
+url: https://ghobot.github.io/blog
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: "blog/:title/"
+permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
 
 navigation:
  - title: Home
-   url: /index
+   url: /index.html
  - title: About
    url: /about
  - title: IIME

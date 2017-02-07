@@ -1,0 +1,45 @@
+---
+layout:   default
+title:    Gallery
+images:
+  - image_path: assets/img/gallery/001_gallery.png
+    name: Innovation room
+    description:  
+    link: https://goo.gl/photos/8MAdrH7oaMMdUt438
+  - image_path: assets/img/gallery/002_gallery.png
+    name: Innovation room
+    description: 
+    link: https://goo.gl/photos/4hRPs8syUdYcu22f8
+  - image_path: assets/img/gallery/003_gallery.png
+    name: Health Science Library
+    description:  
+    link: https://goo.gl/photos/27WDV4e2aqgAVkaH9
+  - image_path: assets/img/gallery/004_gallery.png
+    name: Health Science Library
+    description: 
+    link: https://goo.gl/photos/sXDvxk8ZpNCUNXuY7
+  - image_path: assets/img/gallery/005_gallery.png
+    name: IIME Offices
+    description: 
+    link: https://goo.gl/photos/B5XC5wDSjRLdiHzq5
+  - image_path: assets/img/gallery/006_gallery.png
+    name: Health Science Library
+    description:
+    link: https://goo.gl/photos/8homkPCZvve8rcA37
+  
+---
+
+<h1 class="pageTitle">{{ page.title}}</h1>
+<div>
+<ul class="photo-gallery">
+{% for image in page.images %}
+    <li>
+        <a href="{{ image.link }}" target="_blank">
+            <img src="{{ image.image_path }}" alt="{{ image.name }}">
+        </a>
+        <h3>{{ image.name }}</h3>
+        <p class="meta"> {{ image.description }} </p>
+    </li>
+{% endfor %}
+</ul>
+</div>

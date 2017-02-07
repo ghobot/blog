@@ -250,3 +250,32 @@ CONTACT PAGE STYLING
         font-family: Open Sans,Helvetica,Arial,sans-serif;
     }
 }
+
+/***************
+GALLERY STYLING
+***************/
+
+.photo-gallery {
+    width: 100%;
+    padding: 0;
+    
+    li{
+        list-style: none;
+        width: 100%;
+        margin: 0 5px; 
+
+        img {
+            border-radius: 5px;
+            padding: 0px;         
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-height: 200px;
+        }  
+        p{
+            
+        }
+    }
+    
+}

@@ -20,6 +20,8 @@ navigation:
    url: http://www.med.nyu.edu/iime
  - title: Tags
    url: /tags
+ - title: Gallery
+   url: /gallery
 
 social:
    github: iime

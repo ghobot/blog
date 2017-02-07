@@ -10,14 +10,14 @@ tags:   [Altered Reality, VR, AR, Photogrammetry, 3D Scanning, 360° video]
 Remember 3D? When uttered, 3D tends to trigger anger for the movie ticket inflating annoyance we know too well. It should also remind you of the technology industry wide trend to add the gimmick to any tech product. TV’s, phones, projectors, all were graced with the ability to detect depth in an image. The consumer technology community has passed on, admitting it never became a differentiator in the marketplace to push more device sales. But a takeaway from that moment was listening to a common refrain from consumers: why? Why should I put these glasses on when they make it harder to see the visuals and adds arguably little to the experience?
 
 Enter Virtual Reality. It too has enjoyed the thrilling heights of the hype curve and currently is enjoying that initial dip of a reality crash. After solving many problems technically this year (including less nausea inducing experiences and hand controllers), it still is plagued by the "why?" question.
-![the hype curve]({{ site.url }}/assets/img/post01_02.png)
+![the hype curve](../../assets/img/post01_02.png)
 There is a distinction of how we see altered reality experiences in the innovation space. The usual reasons to explore a technology for Medical Education rarely involve profit. Success for tech like VR in education does not resemble success for the gaming industry. We are concerned with creating experiences that encourage learning and better decision making, specifically creating better trained physicians using tools that augment their wisdom. Altered Reality Technologies can bring mobility and responsiveness (two affordances that have transformed using the web into an everyday break of dawn of habit) to simulation. Students can now experience in the anatomy lab *anywhere*.
 
 We are challenged with creating experiences that quickly answer the why a user should take their valuable time to enter an altered reality.
 
 ## Trips to Altered Realities
 
-![demo]({{ site.url }}/assets/img/post01_01.jpg)
+![demo](../../assets/img/post01_01.jpg)
 IIME’s innovation space has now demonstrated VR and AR experiences to dozens of educators. We also recently conducted a section in the 4th Year elective Medicine 2050 where students explored leading edge VR / AR experiences that use proximity services technology like iBeacon. These simulations ranged from Science education to media creation. 
 
 Some insights:

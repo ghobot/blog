@@ -2,7 +2,7 @@ title: IIME Innovation Space
 description: Updates from the NYU IIME Innovation Space
 
 url: 
-baseurl: ""
+baseurl: "blog/"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 

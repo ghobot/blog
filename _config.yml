@@ -4,7 +4,7 @@ description: Updates from the NYU IIME Innovation Space
 url: https://ghobot.github.io/blog
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: blog/:title/
+permalink: :title/
 
 markdown: kramdown
 highlighter: rouge

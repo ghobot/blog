@@ -4,7 +4,7 @@ description: Updates from the NYU IIME Innovation Space
 url: 
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: ":title/"
+permalink: "blog/:title/"
 
 markdown: kramdown
 highlighter: rouge

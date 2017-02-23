@@ -4,3 +4,5 @@ _site
 .ruby-version
 /assets/.DS_Store
 /.DS_Store
+
+todo.txt

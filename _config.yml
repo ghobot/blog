@@ -11,6 +11,17 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
 
+collections:
+  devices:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: devices
+    values:
+      layout: device_page
+
 navigation:
  - title: Home
    url: /index.html

@@ -1,7 +1,7 @@
 ---
 title: HTC Vive VR
-url: 	
-shortUrl:	
+deviceUrl: 	
+deviceShortUrl:	
 image_path:	
 accessories:
 setup:

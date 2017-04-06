@@ -5,17 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 {% include inventory-head.html %}
-
 <body>
-   <div class="content">
-      <div class="container">
-         {{ content }}
-      </div>
-   </div><!-- end .content -->
-
+    {% include header.html %}
+    <div class="content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </div><!-- end .content -->
    {% include inventory-footer.html %}
    {% include inventory-scripts.html %}
-
 </body>
-
 </html>

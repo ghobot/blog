@@ -16,6 +16,7 @@ body {
 	font-size: 112.5%; // 18px base font size
 	color: $black;
 	overflow-x: hidden;
+    margin: 0;
 
 	p , ul {
 		margin: 0 0 2rem;
@@ -517,7 +518,6 @@ GALLERY STYLING
     
 }
 
-
 /***************
 DEVICES STYLING
 ***************/
@@ -525,6 +525,7 @@ DEVICES STYLING
 
 .devices {
     margin-top: 20px;
+
     ul {
        
     }
@@ -534,4 +535,7 @@ DEVICES STYLING
         color: black; 
     }
     
-}
+    .description {    
+        margin-left: 20px;
+    }                
+}    

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Hololens
-url: 	
-shortUrl:	
+deviceUrl: 	
+deviceShortUrl:	
 image_path:	
 accessories:
 setup:

@@ -1,7 +1,7 @@
 ---
 title: Samsung Galaxy Gear VR	
 deviceUrl: 	http://www.samsung.com/global/galaxy/gear-vr/
-shortUrl:	https://goo.gl/fb5rIH
+deviceShortUrl:	https://goo.gl/fb5rIH
 image_path:	https://goo.gl/ykmBW1
 accessories: 
  - name: Samsung Galaxy Gear VR Headset

@@ -1,60 +1,101 @@
 ---
-layout:   default
+layout:   inventory
 ---
+
+
 <div class="devices">
+    <a href="/inventory" class="float-right"><h4>< Inventory list</h4></a>
     <img src="{{ page.image_path }}" alt="{{ page.title }}" />
-    <h2>{{ page.title }}</h2>
-    <section class="description">
+    <div class="description">   
+        <a href="{{ page.deviceShortUrl }}"><h2>{{ page.title }}</h2></a>
         {{ content }}
-    </section>    
-    
-    {% unless page.accessories == nil %}
-    <section class="accesories">        
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><h3> Accessories</h3></a>    
-        <div class="collapse" >
-        {% for accessory in page.accessories  %}
-            <img src=" {{ accessory.image_path }}" alt="" /> 
-            <h4>{{ accessory.name }}</h4>
-            <p> 
-             {{accessory.description}}
-            </p>
-        <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>    
-        {% endfor %}
+    </div>    
+      
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+        {% unless page.accessories == nil %}
+        <div class="card accessories">
+            <div class="card-header" role="tab" id="headingOne">
+                <h3 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accessories</a>
+                </h3>  
+            </div>
+
+            <div id="collapseOne" class="collapse" >
+            {% for accessory in page.accessories  %}
+                <div class="card-block">
+                    <img src=" {{ accessory.image_path }}" alt="" /> 
+                    <h4>{{ accessory.name }}</h4>
+                    <p> {{accessory.description}} </p>
+                    <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>
+                </div>    
+            {% endfor %}
+            </div>
         </div>    
-    </section>
-    {% endunless %}    
-    
-    {% unless page.setup == nil %}
-    <section class="setup">
-        <h3> Setup </h3>
-        <p>Learn how to setup the device for use.</p>
-        <ul>
-        {% for setup in page.setup %}            
-            <li><a href="{{ setup.shortUrl }}">link</a></li>
-        {% endfor %}
-        </ul>
-    </section>
-    {% endunless %}    
-        
-    {% unless page.experiences == nil %}
-    <section class="experiences">
-        <h3> Experiences </h3>    
-        <ul>
-        {% for experience in page.experiences  %}            
-            <li><a href="{{ experience.shortUrl }}" >{{ experience.name }}</a></li>
-        {% endfor %}
-        </ul>
-    </section>
-    {% endunless %}    
-    
-    {% unless page.resources == nil %}
-    <section class="resources">
-        <h3>Resources</h3>
-        <ul>
-        {% for resource in page.resoures  %}            
-            <li><a href="{{ resource.shortUrl }}"> {{ resource.name }} </a></li>
-        {% endfor %}
-        </ul>
-    </section>
-    {% endunless %}    
+        {% endunless %}    
+
+        {% unless page.setup == nil %}
+        <div class="card setup">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h3 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 Setup
+                </a>
+              </h3>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="card-block">
+                <p>Learn how to setup the device for use.</p>
+                <ul>
+                {% for setup in page.setup %}            
+                    <li><a href="{{ setup.shortUrl }}">link</a></li>
+                {% endfor %}
+                </ul>
+              </div>
+            </div>
+        </div>
+        {% endunless %}    
+
+        {% unless page.experiences == nil %}
+        <div class="card experiences">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h3 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Experiences
+                </a>
+              </h3>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="card-block">
+                <ul>
+                {% for experience in page.experiences  %}            
+                    <li><a href="{{ experience.shortUrl }}" >{{ experience.name }}</a></li>
+                {% endfor %}
+                </ul>
+              </div>
+            </div>
+        </div>        
+        {% endunless %}    
+
+        {% unless page.resources == nil %}
+        <div class="card resources">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h3 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Resources
+                </a>
+              </h3>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="card-block">
+                    <ul>
+                    {% for resource in page.resoures  %}            
+                        <li><a href="{{ resource.shortUrl }}"> {{ resource.name }} </a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>    
+        {% endunless %}           
+    </div>
 </div>
+<a href="/inventory" class="float-right"><h4>< Inventory list</h4></a>

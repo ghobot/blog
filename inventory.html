@@ -1,0 +1,13 @@
+--- 
+layout: default 
+title: Innovation Room Inventory 
+---
+
+<h2>{{ page.title }}</h2>
+<div class="devices">
+    <ul>
+        {% for device in site.devices %}
+            <li><a href="{{ device.url }}">{{ device.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

@@ -29,6 +29,7 @@ GLOBAL STYLES
 .container {
 	@include container(800px); 
 	padding: 0;
+    margin-top: 20px;
 }
 
 

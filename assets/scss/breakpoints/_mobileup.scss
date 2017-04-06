@@ -51,7 +51,8 @@ iframe {
 // Layout
 .container {
 	@include container(610px);
-	padding: 0 20px;
+	padding: 0;
+   
 }
 
 
@@ -512,6 +513,25 @@ GALLERY STYLING
     margin-top: 20px;
     li{
         list-style: none;
+    }
+    
+}
+
+
+/***************
+DEVICES STYLING
+***************/
+
+
+.devices {
+    margin-top: 20px;
+    ul {
+       
+    }
+    
+    li {
+        list-style: none;    
+        color: black; 
     }
     
 }

@@ -1,0 +1,60 @@
+---
+layout:   default
+---
+<div class="devices">
+    <img src="{{ page.image_path }}" alt="{{ page.title }}" />
+    <h2>{{ page.title }}</h2>
+    <section class="description">
+        {{ content }}
+    </section>    
+    
+    {% unless page.accessories == nil %}
+    <section class="accesories">        
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><h3> Accessories</h3></a>    
+        <div class="collapse" >
+        {% for accessory in page.accessories  %}
+            <img src=" {{ accessory.image_path }}" alt="" /> 
+            <h4>{{ accessory.name }}</h4>
+            <p> 
+             {{accessory.description}}
+            </p>
+        <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>    
+        {% endfor %}
+        </div>    
+    </section>
+    {% endunless %}    
+    
+    {% unless page.setup == nil %}
+    <section class="setup">
+        <h3> Setup </h3>
+        <p>Learn how to setup the device for use.</p>
+        <ul>
+        {% for setup in page.setup %}            
+            <li><a href="{{ setup.shortUrl }}">link</a></li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endunless %}    
+        
+    {% unless page.experiences == nil %}
+    <section class="experiences">
+        <h3> Experiences </h3>    
+        <ul>
+        {% for experience in page.experiences  %}            
+            <li><a href="{{ experience.shortUrl }}" >{{ experience.name }}</a></li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endunless %}    
+    
+    {% unless page.resources == nil %}
+    <section class="resources">
+        <h3>Resources</h3>
+        <ul>
+        {% for resource in page.resoures  %}            
+            <li><a href="{{ resource.shortUrl }}"> {{ resource.name }} </a></li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endunless %}    
+</div>

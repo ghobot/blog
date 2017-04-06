@@ -26,9 +26,7 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about
- - title: Inventory
-   url: /inventory
+   url: /about 
  - title: Tags
    url: /tags
  - title: Gallery

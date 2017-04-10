@@ -2,12 +2,16 @@
 layout:   inventory
 ---
 
-
 <div class="devices">
-    <a href="/inventory" class="float-right"><h4>< Inventory list</h4></a>
+    <a href="/inventory" class="float-right inventory"><h4>< Inventory list</h4></a>
     <img src="{{ page.image_path }}" alt="{{ page.title }}" />
     <div class="description">   
         <a href="{{ page.deviceShortUrl }}"><h2>{{ page.title }}</h2></a>
+        {% unless page.tags == nil %}
+            {% for tag in page.tags %}
+                <span class="badge badge-default">{{ tag }}</span>
+            {% endfor %}
+        {% endunless %}
         {{ content }}
     </div>    
       
@@ -46,8 +50,13 @@ layout:   inventory
               <div class="card-block">
                 <p>Learn how to setup the device for use.</p>
                 <ul>
-                {% for setup in page.setup %}            
-                    <li><a href="{{ setup.shortUrl }}">link</a></li>
+                {% for setup in page.setup %}  
+                    <li>
+                        {% unless setup.embed == nil %}
+                            {% include youtube.html id=setup.embed %}
+                        {% endunless %}
+                        <a href="{{ setup.shortUrl }}">link</a>
+                    </li>
                 {% endfor %}
                 </ul>
               </div>
@@ -98,4 +107,4 @@ layout:   inventory
         {% endunless %}           
     </div>
 </div>
-<a href="/inventory" class="float-right"><h4>< Inventory list</h4></a>
+<a href="/inventory" class="float-right inventory"><h4>< Inventory list</h4></a>

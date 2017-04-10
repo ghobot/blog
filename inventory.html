@@ -3,10 +3,14 @@ layout: default
 title: Innovation Room Inventory 
 ---
 
-<h2>{{ page.title }}</h2>
+
 <div class="devices">
+	<h2>{{ page.title }}</h2>
+
+	<p>We are building a collection of technology devices to innovate teaching and learning in medical education. Here are some of the items we are innovating with.</p>
     <ul>
-        {% for device in site.devices %}
+    	{% assign devices = site.devices | sort: 'title' %}
+        {% for device in devices %}
             <li><a href="{{ device.url }}">{{ device.title }}</a></li>
         {% endfor %}
     </ul>

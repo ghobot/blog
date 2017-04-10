@@ -17,12 +17,19 @@ accessories:
 setup:
  - url: https://youtu.be/t8DJXE_0_ek
    shortUrl: https://youtu.be/t8DJXE_0_ek
+   embed: t8DJXE_0_ek
 experiences:
 resources:
-
+tags: 
+ - VR
+ - mobile
+ - Oculus
 ---
 
 The Samsung Gear VR is a mobile virtual reality headset developed by Samsung Electronics, in collaboration with Oculus, and manufactured by Samsung.
-
 [Source](https://en.wikipedia.org/wiki/Samsung_Gear_VR)
+
+The current Gear VR has no ability to track your movement in your space, so it is a stand / sit down experience. Many applications are available via the oculus and samsung app stores.  
+
+
 

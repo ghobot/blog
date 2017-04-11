@@ -11,7 +11,7 @@ title: Innovation Room Inventory
     <ul>
     	{% assign devices = site.devices | sort: 'title' %}
         {% for device in devices %}
-            <li><a href="{{ site.url }}{{ device.url }}">{{ device.title }}</a></li>
+            <li><a href="{{ device.url | prepend: site.baseurl }}">{{ device.title }}</a></li>
         {% endfor %}
     </ul>
 </div>

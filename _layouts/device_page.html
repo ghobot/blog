@@ -9,7 +9,7 @@ layout:   inventory
         <a href="{{ page.deviceShortUrl }}"><h2>{{ page.title }}</h2></a>
         {% unless page.tags == nil %}
             {% for tag in page.tags %}
-                <span class="badge badge-default">{{ tag }}</span>
+                <span class="badge badge-default tags">{{ tag }}</span>
             {% endfor %}
         {% endunless %}
         {{ content }}

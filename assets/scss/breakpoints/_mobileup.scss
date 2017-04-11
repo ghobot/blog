@@ -525,10 +525,6 @@ DEVICES STYLING
 
 .devices {
     margin-top: 20px;
-
-    ul {
-       
-    }
     
     li {
         list-style: none;    
@@ -539,12 +535,10 @@ DEVICES STYLING
         margin-left: 20px;
     }            
 
-    h2 {
+    h2,
+    p,
+    .tags:first-of-type {
     	margin-left: 10px;	
-    }
-
-    p {
-    	margin-left: 10px;
     }
 }  
 

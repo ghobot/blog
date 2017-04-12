@@ -13,4 +13,4 @@ tags:
 The Leap Motion is a computer hardware sensor device that recognizes hand and finger motions as an input, much like a mouse, but requires no hand contact or touching. The device also supports hand tracking in virtual reality. (Wikipedia)
 
 ##### Why this device?
-The leap motion sensor tracks your hand movements with high fidelity. We use it in Virtual and Augmented Realities to manipulate virtual objects without learning a controller.
+The leap motion sensor tracks your hand movements with high fidelity. We use it in Virtual and Augmented Realities to manipulate virtual objects without learning the use of a controller.

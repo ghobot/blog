@@ -31,5 +31,9 @@ The Samsung Gear VR is a mobile virtual reality headset developed by Samsung Ele
 
 The current Gear VR has no ability to track your movement in your space, so it is a stand / sit down experience. Many applications are available via the oculus and samsung app stores.  
 
+##### Why this device?
+
+The galaxy gear VR is another step in our group's push toward more mobility in learning experiences because it utilizes a powerful samsung smartphone. Working with educators, we are developing Virtual Reality experiences that students can easily use whenever and wherever they are. 
+
 
 

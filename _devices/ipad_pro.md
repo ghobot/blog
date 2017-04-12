@@ -11,3 +11,6 @@ tags:
 ---
 
 Apple Touch Tablet mobile computer that supports a high fidelity pencil peripheral. 
+
+##### Why this device?
+The iPad pro is top of the line version of the iPad with its fastest processor and the best camera on any tablet. We use the tablet for high quality 3D scanning, application testing, and 360 video capture in the Anatomy Lab. 

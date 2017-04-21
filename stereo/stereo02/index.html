@@ -1,12 +1,14 @@
 ---
-layout:   stereo-aframe
+layout:   aframe-stereo-image
 title:    Stereo02
 location:     "street outside hospital"
 right:     nyu_street_pano_right.png
 left:      nyu_street_pano_left.png
+segmentsWidth: 	64
+segmentsHeight:  64
+radius: 5000
+split: horizontal
 ---
 
-<!-- {{ page.location }} -->
-<img id="left" src="{{ page.left }}">
-<img id="right" src="{{ page.right }}">
+{% include aframe-stereo.html %}
 <video style="visibility:none" src="../../assets/img/cardboard/nyulmc_street.vr-converted.mp4" autoplay loop></video>

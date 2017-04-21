@@ -1,13 +1,14 @@
 ---
-layout:   stereo-aframe
+layout:   aframe-stereo-image
 title:    Stereo04
 location:     "Queen Victoria Building in the Sydney CBD"
 right:     flickr_pano_right.png
 left:      flickr_pano_left.png
+segmentsWidth: 	128
+segmentsHeight:  128
+radius: 5000
+split: horizontal
 ---
 
-<!-- {{ page.location }} -->
-<img id="left" src="{{ page.left }}">
-<img id="right" src="{{ page.right }}">
-
+{% include aframe-stereo.html %}
 <!-- image from: https://flic.kr/p/8nhE86 -->

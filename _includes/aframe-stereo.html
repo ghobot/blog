@@ -1,0 +1,20 @@
+<!-- {{ page.location }} -->
+<img id="left" src="{{ page.left }}">
+<img id="right" src="{{ page.right }}">
+</a-assets>
+
+  <!-- here we tell the camera to render (outside VR mode, in monoscopic mode) everything without the 'stereo' component active
+  and if it's active, only render those entities in the 'left' eye -->
+  <a-camera position="0 0 10" cursor-visible="false" stereocam="eye:left;"></a-camera>
+
+  <!-- native sphere, will render on 'left' eye, and will take only the first half (top) of the video for projection -->
+  <a-entity geometry="primitive: sphere; radius: {{ page.radius }}; segmentsWidth: {{ page.segmentsWidth }}; segmentsHeight: {{ page.segmentsHeight }};"
+      material="shader: flat; src: #left;"
+      scale="-1 1 1" stereo="eye:left; split: {{ page.split }}">
+  </a-entity>
+
+  <!-- native sphere, will render on 'right' eye, and will take only the second half (bottom) of the video for projection -->
+  <a-entity geometry="primitive: sphere; radius: {{ page.radius }}; segmentsWidth: {{ page.segmentsWidth }}; segmentsHeight: {{ page.segmentsHeight }};"
+      material="shader: flat; src: #right;"
+      scale="-1 1 1" stereo="eye:right; split: {{ page.split }}">
+  </a-entity>

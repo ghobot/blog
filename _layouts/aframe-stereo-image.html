@@ -29,41 +29,15 @@
 
 <body>
 
- <a-scene antialias="true">
+  <a-scene antialias="true">
   <!-- Paths to left and right images -->
   <a-assets>
     {{ content }}   
-  </a-assets>
-
-  <!-- Camera -->
-  <!-- <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity> -->
-
-  <!-- Sky sphere -->
-  <!-- <a-sky id="sky1" radius="5000" src="#left" stereo="eye:left"></a-sky>
-  <a-sky id="sky2" radius="5000" src="#right" stereo="eye:right"></a-sky> -->
-
-
-
-  <!-- here we tell the camera to render (outside VR mode, in monoscopic mode) everything without the 'stereo' component active
-  and if it's active, only render those entities in the 'left' eye -->
-  <a-camera position="0 0 10" cursor-visible="false" stereocam="eye:left;"></a-camera>
-
-  <!-- native sphere, will render on 'left' eye, and will take only the first half (top) of the video for projection -->
-  <a-entity geometry="primitive: sphere; radius: 5000; segmentsWidth: 64; segmentsHeight: 64;"
-      material="shader: flat; src: #left;"
-      scale="-1 1 1" stereo="eye:left; split: horizontal">
-  </a-entity>
-
-  <!-- native sphere, will render on 'right' eye, and will take only the second half (bottom) of the video for projection -->
-  <a-entity geometry="primitive: sphere; radius: 5000; segmentsWidth: 64; segmentsHeight: 64;"
-      material="shader: flat; src: #right;"
-      scale="-1 1 1" stereo="eye:right; split: horizontal">
-  </a-entity>
-
+  
 
 </a-scene>
          
-  {% include carmel.html %}
+  {% include carmel-script.html %}
 
 </body>
 

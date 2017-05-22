@@ -46,7 +46,7 @@ Here is an [Aframe demo](https://ghobot.github.io/vr-liver/liver-demo/index.html
 ### Photos into 3D Objects
 Physicians often lament how students have less and less time in the anatomy lab or exposure to pathological specimens. Dr. Amy Rapkiewicz, a fellow of NYU IIME, is creating an archive of novel pathological tissue in the form of 3D objects that can be viewed using VR and AR technologies like the Vive or the Hololens. 
 
-<div class="sketchfab-embed-wrapper"><iframe width="600" height="400" src="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351/embed?autospin=0.2&amp;transparent=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<div class="sketchfab-embed-wrapper"><iframe max-width="600" max-height="400" src="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351/embed?autospin=0.2&amp;transparent=1&amp;ui_related=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
     <a href="https://sketchfab.com/models/1f52c6c72c7249e291c255f3b860d351?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Liver With Holes</a>

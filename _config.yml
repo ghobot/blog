@@ -14,6 +14,8 @@ paginate: 5
 collections:
   devices:
     output: true
+  accessories:
+    output: true
 
 defaults:
   - scope:
@@ -21,6 +23,11 @@ defaults:
       type: devices
     values:
       layout: device_page
+  - scope:
+      path: ""
+      type: accessories
+    values:
+      layout: accessory_page    
 
 navigation:
  - title: Home

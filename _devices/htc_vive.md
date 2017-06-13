@@ -4,8 +4,35 @@ deviceUrl: 	https://www.vive.com/us/product/
 deviceShortUrl:	https://goo.gl/BVn4at
 image_path:	https://goo.gl/GHAjxX
 accessories:
+ - name: HTC Vive Headset
+   description:	
+   image_path: https://goo.gl/PQfDa8	
+   accessory_path: htc_vive_headset
+ - name: HTC Vive Controllers
+   description:	
+   image_path:	
+   accessory_path:   
+ - name: HTC Vive Lighthouses
+   description:	
+   image_path:	
+   accessory_path:
+ - name: HTC Vive Link Box
+   description:	
+   image_path:	
+   accessory_path:
+ - name: PC tower
+   description: Valinor custom VR rig	
+   image_path:	
+   accessory_path:
+ - name: VR Play Area
+   description:	
+   image_path:	
+   accessory_path:      
 setup:
-experiences:
+experiences: 
+ - Organon 3D anatomy
+ - Tilt Brush
+ - The Body VR
 resources:
 tags:
  - VR

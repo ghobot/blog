@@ -25,10 +25,10 @@ layout: inventory
             </div>
 
             <div id="collapseOne" class="collapse" >
-            {% for accessory in page.accessories  %}
+            {% for accessory in page.accessories %}
                 <div class="card-block">
                     <img src=" {{ accessory.image_path }}" alt="" /> 
-                    <h4>{{ accessory.name }}</h4>
+                    <h4><a href=" {{ device.accessory_path | prepend: site.baseurl }} "> {{ accessory.name }} </a></h4><li>
                     <p> {{accessory.description}} </p>
                     <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>
                 </div>    

@@ -296,7 +296,18 @@ DEVICES STYLING
 .devices {
     .description {
         margin-left: 0px;                 
-    } 
+    }
+
+    p,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .tags:first-of-type {
+    	margin-left: 10px;	
+    }
+     
     img{
         display: block;
         margin-left: auto;

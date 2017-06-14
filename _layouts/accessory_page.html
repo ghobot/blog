@@ -4,8 +4,8 @@ layout: inventory
 <div class="devices">
     <img src="{{ page.image_path }}" alt="{{ page.title }}" />
     <div class="description">
-        <h2>{{ page.title }}</h2>
-        <span class="badge badge-default tags"><a href= "/devices/{{ page.parent_device | prepend: site.baseurl }}" > {{ page.parent_device_name }} </a></span>
+        <div><h2> <span class="parent-device"><a href= "/devices/{{ page.parent_device | prepend: site.baseurl }}" >{{ page.parent_device_name }}</a> / </span>{{ page.title }}</h2></div>
+
         {% unless page.tags == nil %} 
             {% for tag in page.tags %}
                 <span class="badge badge-default tags">{{ tag }}</span> 

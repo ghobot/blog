@@ -27,10 +27,20 @@ layout: inventory
             <div id="collapseOne" class="collapse" >
             {% for accessory in page.accessories %}
                 <div class="card-block">
-                    <img src=" {{ accessory.image_path }}" alt="" /> 
-                    <h4><a href=" {{ device.accessory_path | prepend: site.baseurl }} "> {{ accessory.name }} </a></h4><li>
-                    <p> {{accessory.description}} </p>
-                    <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>
+                    {% unless accessory.image_path == nil %}
+                        <img src=" {{ accessory.image_path }}" alt="" /> 
+                    {% endunless%}
+                    
+                    <h4><a href=" {{ accessory.accessory_page | prepend: site.baseurl }} "> {{ accessory.name }} </a></h4><li>
+                    
+                    {% unless accessory.description == nil %}
+                        <p> {{accessory.description}} </p>
+                    {% endunless%}
+                    
+                    {% unless accessory.source_shortUrl == nil %}
+                        <p><a href="{{ accessory.source_shortUrl }}">Source</a></p>
+                    {% endunless%}
+                    
                 </div>    
             {% endfor %}
             </div>
@@ -76,8 +86,10 @@ layout: inventory
             <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="card-block">
                 <ul>
-                {% for experience in page.experiences  %}            
-                    <li><a href="{{ experience.shortUrl }}" >{{ experience.name }}</a></li>
+                {% for experience in page.experiences  %}           
+                    {% unless experience.youtube_video == nil %} 
+                        <li><iframe width="560" height="315" src="{{ experience.youtube_video }}" frameborder="0" allowfullscreen></iframe></li>
+                    {% endunless %}    
                 {% endfor %}
                 </ul>
               </div>

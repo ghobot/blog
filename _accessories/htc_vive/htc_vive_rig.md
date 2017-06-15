@@ -1,5 +1,5 @@
 ---
-title: HTC Vive Rig
+title: PC Rig
 parent_device: htc_vive
 parent_device_name: HTC Vive
 image_path: 

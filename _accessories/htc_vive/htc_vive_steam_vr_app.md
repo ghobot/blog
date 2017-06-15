@@ -1,5 +1,5 @@
 ---
-title: Steam VR application
+title: Steam VR Application
 parent_device: htc_vive
 parent_device_name: HTC Vive
 image_path: https://goo.gl/QzRZnV

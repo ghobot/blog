@@ -25,7 +25,7 @@ accessories:
    accessory_path:
    accessory_page: /accessories/htc_vive/htc_vive_link_box.html
  - name: PC tower
-   description: Custom VR rig	
+   description: Custom VR Rig	
    image_path:	
    accessory_path:
    accessory_page: /accessories/htc_vive/htc_vive_rig.html

@@ -1,5 +1,5 @@
 ---
-title: HTC Vive Play Area
+title: Play Area
 parent_device: htc_vive
 parent_device_name: HTC Vive
 image_path: https://goo.gl/Zilpv5

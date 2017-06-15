@@ -1,5 +1,5 @@
 ---
-title: HTC Vive lighthouses
+title: Lighthouses
 parent_device: htc_vive
 parent_device_name: HTC Vive
 image_path: https://goo.gl/hj7v6j

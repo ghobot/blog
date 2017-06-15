@@ -1,5 +1,5 @@
 ---
-title: vive controllers
+title: Controllers
 parent_device: htc_vive
 parent_device_name: HTC Vive
 image_path: https://goo.gl/7Kejwn

@@ -2,7 +2,7 @@
 title: PC Rig
 parent_device: htc_vive
 parent_device_name: HTC Vive
-image_path: 
+image_path: https://goo.gl/Gof4rn 
 ---
 
 ### Description
@@ -11,5 +11,8 @@ Our custom VR rig is a Windows 10 Pro desktop with a discrete Nvidia 1080 GPU an
 
 If the computer does not wake when you use the keyboard or mouse,  press the black power button at the top of the computer. 
 
+### How to use
+
+Wake the computer by clicking on either keyboard or moving the black mouse. Sign in.
 
 

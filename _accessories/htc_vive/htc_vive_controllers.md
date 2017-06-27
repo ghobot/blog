@@ -16,6 +16,9 @@ Input devices for your VR experience that are covered in photosensitive sensors 
 
 ![controllers](https://goo.gl/llTrRn)
 
+### How to use
+
+Unplug the controllers if they are charging. Press the system button (3) to activate them. The light on them should turn green when on and recognized by the system. 
 
 
 

@@ -19,7 +19,7 @@ To conserve the longevity of the lighthouses, they are unplugged when they syste
 
 ### How to use
 
-At the start of each session plug in both lighthouses. After you are done unplug the unit. 
+At the start of each session Plug the lighthouses in to the closest outlets. They will light up. When each lighthouse is active, the status light will be white. After you are done with your session, unplug the unit. 
 
 
 

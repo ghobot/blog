@@ -11,6 +11,8 @@ The Vive with the lighthouses supports “Room Scale” 6 degrees of freedom mob
 
 The play area can also be used for a seated experience where a user will not move around a space.
 
+*The play area has been configured.* 
+
 
 
 

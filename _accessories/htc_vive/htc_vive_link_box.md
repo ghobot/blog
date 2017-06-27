@@ -12,7 +12,7 @@ This box connects the Vive headset to a computer via USB and HDMI as well as giv
 
 ### How to use
 
-At the start of each session make sure the headset is connected to the link box.
+At the start of each session make sure the headset is connected to the link box. Plug the headset's USB, HDMI, and power adapter into the linkbox. The back of the linkbox should be connected to the Computer Rig and an outlet.
 
 
 

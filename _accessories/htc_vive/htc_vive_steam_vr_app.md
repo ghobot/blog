@@ -13,5 +13,11 @@ This application controls the settings of the HTC vive. It provides status of th
 
 You can also reboot the headset from this application. 
 
+### How to use
+
+<img src="https://goo.gl/qSjtYd" width="40%" alt="Steam VR shortcut">
+
+The Steam VR application is located on the desktop of the PC Rig. 
+
 
 

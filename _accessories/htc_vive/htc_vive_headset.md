@@ -19,6 +19,8 @@ The exterior of the device is covered in photosensitive sensors that aid in trac
 
 ### How to use
 
+Make sure the headset is plugged into the linkbox.
+
 This particular headset is front heavy. Place the headset on your face and move it around until you get a clear image. Pull the head harness over your head. Pull on the velcro straps on the side in order to tighten the headset in this position. Try not make it too tight.
 <iframe style="max-width:100%" src="https://www.youtube.com/embed/wnjRogcSPhc" width="600px" height="450px" frameborder="0" allowfullscreen="true"> </iframe>
 

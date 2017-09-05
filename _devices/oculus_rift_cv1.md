@@ -35,3 +35,5 @@ Oculus Rift's Consumer Version 1 is a 3rd generation, affordable head mounted di
 
 ##### Why this device?
 The CV1 creates a cohesive room scale experience with state of the art motion controllers and spatial audio all in a lightweight headset. It is the most portable of the currently available VR solutions with executing a sit down 6DOF experience with a mobile workstation solution,  one sensor, the headset and controllers. 
+
+This device also is more portable than the HTC Vive which requires 2 sensors that must stay in a room. The CV1 can operate on a laptop (asus zephyrus 2017). We have tested using one sensor to power both head and controller tracking. 

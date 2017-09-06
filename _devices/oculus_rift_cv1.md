@@ -2,25 +2,25 @@
 title: Oculus Rift CV1
 deviceUrl: https://www.oculus.com/rift/
 deviceShortUrl: https://goo.gl/ar8vsc
-image_path:	https://goo.gl/ECbckJ
+image_path: https://goo.gl/ECbckJ
 accessories: 
- - name: Oculus Rift Headset
-   description:	
+ - name: Oculus Rift Headset 
+   description: Oculus Head Mounted Display  
    image_path: 
    accessory_path: 
    accessory_page: /accessories/oculus_rift_cv1/oculus_rift_headset.html
  - name: Oculus Rift Touch Controllers
-   description:	
+   description: Tracked controllers that creat your "hands" in virtual reality  
    image_path: 
    accessory_path: 
    accessory_page: /accessories/oculus_rift_cv1/oculus_rift_touch_controllers.html
  - name: Oculus Rift Sensors 
-   description:	
+   description: Desk or wall mounted camera sensors
    image_path: 
    accessory_path: 
    accessory_page: /accessories/oculus_rift_cv1/oculus_rift_sensors.html    
  - name: Asus Zephyrus GX501
-   description:  
+   description:  Mobile workstation for running Oculus headset
    image_path: 
    accessory_path: 
    accessory_page: /accessories/oculus_rift_cv1/oculus_rift_asus_zephyrus.html       
@@ -34,6 +34,8 @@ tags:
  - VR
  - Facebook
  - Oculus
+ - Room Scale
+ - touch controllers
 ---
 
 Oculus Rift's Consumer Version 1 is a 3rd generation, affordable head mounted display VR system released by Facebook's Oculus in 2016. Currently it supports 6DOF, room scale tracking and advanced 

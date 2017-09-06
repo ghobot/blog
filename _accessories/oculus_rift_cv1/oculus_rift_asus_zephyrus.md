@@ -5,11 +5,10 @@ parent_device_name: Oculus Rift CV1
 image_path: https://goo.gl/kwVEBc
 tags: 
  - VR
- - Facebook
- - Oculus 
- - tracking
- - 6DOF
- - Controllers
+ - Asus
+ - Nvidia GTX 1080 
+ - mobile
+ - laptop
 ---
 
 ### Description

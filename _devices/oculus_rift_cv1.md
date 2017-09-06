@@ -19,6 +19,11 @@ accessories:
    image_path: 
    accessory_path: 
    accessory_page: /accessories/oculus_rift_cv1/oculus_rift_sensors.html    
+ - name: Asus Zephyrus GX501
+   description:  
+   image_path: 
+   accessory_path: 
+   accessory_page: /accessories/oculus_rift_cv1/oculus_rift_asus_zephyrus.html       
 setup:
  - url: https://www.youtube.com/watch?v=EiY2xYHzcus&list=PLR_P-10Ol55C1WECEz_9W0WX8Zf7x0KUU
    shortUrl: https://www.youtube.com/watch?v=EiY2xYHzcus&list=PLR_P-10Ol55C1WECEz_9W0WX8Zf7x0KUU

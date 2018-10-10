@@ -27,7 +27,7 @@ defaults:
       path: ""
       type: accessories
     values:
-      layout: accessory_page    
+      layout: accessory_page
 
 navigation:
  - title: Home
@@ -42,11 +42,7 @@ navigation:
    url: /gallery
  - title: IIME
    url: http://www.med.nyu.edu/iime
- - title: Cardboard
-   url: http://ghobot.github.io/iimecardboard/
- - title: Mobility
-   url: http://mobile.iime.cloud/
-
+ 
 social:
    github: iime
    twitter: NYULMC_IIME

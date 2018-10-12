@@ -2,7 +2,7 @@
 title: Controller
 parent_device: oculus_go
 parent_device_name: Oculus Go
-image_path: https://goo.gl/7ovq2t
+image_path: https://goo.gl/jdf2dg
 tags:
  - Mobile VR
  - Facebook

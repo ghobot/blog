@@ -2,16 +2,16 @@
 title: Oculus Go
 deviceUrl: 	https://www.oculus.com/go/
 deviceShortUrl: https://goo.gl/kA32wN
-image_path: https://goo.gl/pMipNE
+image_path: https://goo.gl/Vs1rEx
 accessories:
 - name: Oculus Go Headset
   description: Mobile Oculus Go Head Mounted Display  
-  image_path: https://goo.gl/MqSKQo
+  image_path: https://goo.gl/DrEME5
   accessory_path:
   accessory_page: /accessories/oculus_go/oculus_go_headset.html
 - name: Oculus Go controller
   description: Small controller for laser pointing and interface manipulation; untracked motion controller  
-  image_path: https://goo.gl/7ovq2t
+  image_path: https://goo.gl/jdf2dg
   accessory_path:
   accessory_page: /accessories/oculus_go/oculus_go_controller.html
 setup:

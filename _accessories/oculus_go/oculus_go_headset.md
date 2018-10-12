@@ -2,7 +2,7 @@
 title: Headset
 parent_device: oculus_go
 parent_device_name: Oculus Go
-image_path: https://goo.gl/DrEME5
+image_path: https://lh3.googleusercontent.com/VnTssT0NL3AtR7WiybqbEx6djcQlC9ewUPTJqK9pbwWHFMFrqfFMOYeV4DESw1H79pyyukhpscrvLgUXTMtSGOG_oczsfuQU94vgHNPvuUxlQ0NsUCVggoCSCaqHZM7miO2IKZAY6A=w1158-h733-no
 tags:
  - Mobile VR
  - Facebook
